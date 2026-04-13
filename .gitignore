@@ -1,0 +1,29 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and tooling
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Runtime artifacts
+output/*.log
+output/*.tmp
+
+# Model and dataset artifacts (generated locally)
+models/*.h5
+models/*.keras
+models/*.tflite
+dataset/gesture_data.csv
