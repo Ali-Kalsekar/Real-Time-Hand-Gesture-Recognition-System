@@ -1,0 +1,11 @@
+camera_index: 0
+confidence_threshold: 0.6
+max_num_hands: 2
+model_path: models/gesture_model.h5
+labels_path: models/gesture_labels.json
+log_path: output/predictions_log.csv
+frame_width: 960
+frame_height: 540
+use_gpu_if_available: true
+prediction_smoothing_window: 5
+dynamic_window: 8
